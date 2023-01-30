@@ -1,3 +1,9 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .text {
     color: #fff;
     text-align: center;
