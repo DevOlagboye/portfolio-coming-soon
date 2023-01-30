@@ -5,9 +5,9 @@ import penGuin from "../../assets/peguin.png";
 const ComingSoonPage = () => {
   return (
     <div className="container">
-      <h3 className="text">
-        Coming <img src={penGuin} alt="" /> Soon
-      </h3>
+      <h3>Coming</h3>
+      <img src={penGuin} alt="Penguin" />
+      <h3>Soon</h3>
     </div>
   );
 };
