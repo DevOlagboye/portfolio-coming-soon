@@ -4,7 +4,7 @@ import penGuin from "../../assets/peguin.png";
 
 const ComingSoonPage = () => {
   return (
-    <div>
+    <div className="container">
       <h3 className="text">
         Coming <img src={penGuin} alt="" /> Soon
       </h3>
