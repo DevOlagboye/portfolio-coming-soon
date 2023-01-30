@@ -1,4 +1,10 @@
 .text {
     color: #fff;
     text-align: center;
+    font-size: 60px;
+}
+
+img {
+    width: 60px;
+    position: absolute;
 }
