@@ -2,15 +2,31 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 10vh;
 }
 
 .text {
     color: #fff;
     text-align: center;
-    font-size: 60px;
+    font-size: 90px;
+    margin-left: 70px;
 }
 
 img {
-    width: 60px;
+    width: 80px;
     position: absolute;
+    margin-left: 180px;
+    margin-top: 50px;
+}
+
+@media (max-width: 600px) {
+    .text {
+        font-size: 30px;
+        margin-left: 30px;
+    }
+    img {
+        width: 30px;
+        margin-top: 0px;
+        margin-left: 70px;
+    }
 }
