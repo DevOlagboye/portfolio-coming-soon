@@ -1,4 +1,5 @@
 import React from 'react'
+import "./ComingSoonPage.css"
 
 const ComingSoonPage = () => {
   return (
